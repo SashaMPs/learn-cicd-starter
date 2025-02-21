@@ -35,4 +35,3 @@ func TestGetAPIKey(t *testing.T) {
 		t.Errorf("expected 'malformed authorization header' error, got %v", err)
 	}
 }
-
